@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="80dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/valueText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/value_text"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/valueText"
+                android:gravity="center"
+                android:paddingTop="60sp"
+                android:text="@string/welcome_text"
+                android:textSize="25sp"
+                tools:ignore="NotSibling" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp">
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="63sp"
+            android:layout_height="60sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="20sp"
+            android:layout_weight="1"
+            android:text="@string/button_home"
+            android:textColor="@color/white"
+            android:backgroundTint="#ff9900"/>
+
+        <Button
+            android:id="@+id/calculationButton"
+            android:layout_width="63sp"
+            android:layout_height="60sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10sp"
+            android:text="@string/button_calculation"
+            android:textColor="@color/white"
+            android:backgroundTint="#ff9900"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp">
+
+        <Button
+            android:id="@+id/aboutMeButton"
+            android:layout_width="112sp"
+            android:layout_height="60sp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/button_about_me"
+            android:textColor="@color/white"
+            android:backgroundTint="#ff9900"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp">
+
+        <Button
+            android:id="@+id/myDevProfileeButton"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/button_my_dev_profile"
+            android:textColor="@color/white"
+            android:backgroundTint="#ff9900"/>
+    </RelativeLayout>
+
+</LinearLayout>

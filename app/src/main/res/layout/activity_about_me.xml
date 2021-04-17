@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".AboutMe">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/backButton_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_about_back_menu"
+            android:textColor="@color/white"
+            android:backgroundTint="#ff9900"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp">
+
+        <TextView
+            android:id="@+id/aboutMeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/about_me_heading_text"
+            android:textSize="35sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/textview_border">
+
+        <TextView
+            android:id="@+id/aboutMeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/heinie_profile"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:text="I'm Heinrich Arends\n\nI'm from Cape Town\n\nStudent at CPUT\n\nSkills: Java, HTML, CSS,\nBootstrap4, Spring Boot,\nAngular 4  ">
+        </TextView>
+
+        <TextView
+            android:id="@+id/aboutMeText2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:layout_marginTop="170sp"
+            android:text="Interest:\n\nI love to code because it is usable art. Just like architecture, which is an art used by people daily and affects their everyday life, so is code. You can create something and people interact with, use, touch and work with. That is an amazing feeling.\n\nSince code is a usable art, a whole team of people are connected to the practice. From the client to the account managers, and including the business people, finance, the support team, QA team, designers, product managers and project managers.\n\nHobbies:\n\nI enjoy working in the garden it's a  fun and relaxing way to get in touch with nature. Gardening is an activity that’s good for both the mind and body, and can be enjoyed by people of all ages.\n\nLong term goals:\n\nIn the future, I would love to use my skills to give back to society specifically in the Education sector. Develop free online learning systems so that each and every child will have access to the best educational material and have equal learning opportunities.\n\nEmployment:\n\nI'm currently employed at Telkom SA SOC Limited. I have more than 10 years experiencing in Telecommunications and Customer experience.\n\n I enjoy working within a team, because we all don't think alike, and two heads are better than one. This is what I've learned over the years during my employment and while I'm studying by working on group projects ">
+        </TextView>
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">HeinrichDevSpace</string>
+    <string name="button_text">Next</string>
+    <string name="button_home">Home</string>
+    <string name="button_calculation">Calculation</string>
+    <string name="button_about_me">About Me</string>
+    <string name="button_my_dev_profile">My Dev profile</string>
+    <string name="button_calc_back_menu">Back</string>
+    <string name="button_about_back_menu">Back</string>
+    <string name="button_calculate_points">Calculate</string>
+    <string name="button_dev_profile_back_menu">Back</string>
+    <string name="heading_text">Heinrich Arends Code Space</string>
+    <string name="visitor_text">Visitor\'s Name :</string>
+    <string name="hint_text">Type Your Name</string>
+    <string name="dear_text">Dear </string>
+    <string name="value_text">Dear Value </string>
+    <string name="calculation_title_text"><font color='#143757'>Pick</font><font color='#b8094d'> n Pay</font></string>
+    <string name="title_description_text">Loyalty Calculator</string>
+    <string name="how_to_earn_points_text_heading">EARN POINTS</string>
+    <string name="how_to_earn_points_text_paragraph">Earn Smart Shopper points at Pick n Pay: for every R10 spent, you earn 1 point.</string>
+    <string name="cost_of_item_text">Enter cost of item: </string>
+    <string name="amount_of_items_text">How many Items: </string>
+    <string name="welcome_text"> Welcome to my code space </string>
+    <string name="currency_hint">R0.00</string>
+    <string name="items_hint">0</string>
+    <string name="about_me_heading_text">About Me</string>
+    <string name="about_me_text_1">I\'m Heinrich Arends\n\nI\'m from Cape Town\n\nStudent at CPUT\n\nSkills: Java, HTML, CSS,\nBootstrap4, Spring Boot,\nAngular 4</string>
+    <string name="about_me_text_2">
+
+    </string>
+    <string name="text_my_details_title">My Details</string>
+    <string name="text_student_name">Heinrich Arends</string>
+    <string name="text_contact_number">0827122600</string>
+    <string name="text_email">arendshp@gmail.com</string>
+    <string name="text_linkedin">https://www.linkedin.com/in/heinrich-arends-77180a63</string>
+    <string name="text_facebook">https://www.facebook.com/heinrich.arends.14</string>
+    <string name="points_results">Result</string>
+
+</resources>
